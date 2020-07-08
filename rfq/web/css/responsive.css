@@ -1,0 +1,326 @@
+@media only screen and (max-width: 1024px) {
+    .header{
+        padding: 10px 0
+    }
+    .header .logo{
+        padding-top: 7px;
+        width: 125px;
+    }
+    .header .menu-rfq{
+        padding-top: 5px;
+    }
+    .breadcrumb{
+        display: block
+    }
+}
+
+@media only screen and (max-width: 812px) {
+    .header{
+        padding: 10px 0
+    }
+    .header .logo{
+        padding-top: 10px;
+        width: 125px;
+    }
+    .header .menu-rfq{
+        padding-top: 5px;
+    }
+    .section-title{
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header .logo{
+        width: 110px;
+    }
+    .navbar-brand > img {
+        width: 165px;
+    }
+
+    .add-question {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu:before {
+        right: 75px;
+    }
+
+    .dropdown-menu:after {
+        right: 76px;
+    }
+    .sub-reply {
+        margin-left: 8%;
+    }
+    .navbar-brand{
+        display: block
+    }
+
+
+    .create-rfq-mobile{
+        display: block;
+    }
+
+    .menu-rfq{
+        text-align: left;
+    }
+
+    #rfq-form label{
+        display: none;
+    }
+
+    #rfq-form .rfq-upload label{
+        display: block;
+    }
+
+    .menu-rfq .dropdown-menu{
+        right:-15px;
+        left: inherit;
+    }
+}
+@media only screen and (max-width: 736px) {
+
+    .header{
+        padding: 10px 0;
+    }
+    .header .logo{
+        width: 200px;
+        padding-top: 0;
+    }
+    .form-search-desktop{
+        display: none
+    }
+    .form-search-mobile{
+        display: block;
+        margin-top: 10px
+    }
+    .menu-rfq{
+        margin-top: 0;
+        text-align: right
+    }
+    .menu-rfq .create-rfq{
+        margin-right: 10px;
+    }
+    .language{
+        float: right;
+    }
+    language .dropdown-menu{
+        right: 0;
+        left: auto;
+    } 
+    .rfq_add img{
+        display: block;
+        margin-top: 2px;
+    }
+    .rfq_add span{
+        display: none
+    }
+    .menu-rfq ul{
+        padding-top: 6px;
+    }
+}
+@media only screen and (max-width: 667px) {
+    .text-right{
+        float: left
+    }
+    .header{
+        padding: 10px 0;
+    }
+    .menu-rfq{
+        margin-top: 10px;
+        padding-right: 20px;
+        text-align: right
+    }
+    .menu-rfq .create-rfq{
+        margin-right: 10px;
+    }
+    .language{
+        float: right
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .language-name{
+        display: none
+    }
+    .create-rfq{
+        font-size: 13px;
+    }
+    .navbar-nav {
+        margin: -0.5px -15px;
+    }
+    .navbar-brand > img {
+        width: 165px;
+    }
+    .top .tabs {
+        line-height: 20px;
+        z-index: 4;
+        background-color: #f8f8f8;
+        width: 100%;
+    }
+    .top .tabs a {
+        padding: 10px;
+        color: #000;
+        border-radius: 0;
+        display: inline-block;
+        width: 100%;
+        padding-left: 20px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .top .tabs a:focus, .top .tabs a:hover {
+        border-bottom: 1px solid #e7e7e7 !important;
+    }
+    .top .tabs #tabs-user {
+        width: 100%;
+    }
+
+    .header-question{
+        padding: 0;
+    }
+
+    .title-question h3{
+        padding: 0;
+        margin-top: 10px; 
+    }
+
+    .question {
+        padding: 10px 10px 10px 10px;
+        background: #eff0f1;
+        border-radius: 3px;
+    }
+
+    .panel-body {
+        padding: 10px 10px 0 10px;
+    }
+    .table_responsive{
+        overflow-x:inherit;
+        overflow-y: inherit;
+    }
+    .table_responsive,
+    .table_responsive thead,
+    .table_responsive tbody,
+    .table_responsive th,
+    .table_responsive td,
+    .table_responsive tr {
+        display: block;
+
+    }
+    .table_responsive > thead > tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .table_responsive > tbody > tr {
+        border-top: 1px solid #ccc;
+    }
+    .table_responsive > tbody > tr:first-child {
+        border-radius: 3px 3px 0 0;
+        border-top: none;
+        margin-top: 0; 
+    }
+    .table_responsive > tbody > tr:last-child {
+        border-radius: 0 0 3px 3px;
+        border-bottom: none;
+    }
+    /*    .table_responsive > tbody > tr > td:first-child{
+            display: none
+        }*/
+    .table_responsive > tbody > tr > td:last-child{
+        border-bottom: 0;
+    }
+    .table_responsive > tbody > tr td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        display: flex;
+    }
+
+    .table_responsive > tbody > tr td:first-child {
+        text-align: left;
+    }
+    .table_responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child {
+        padding: 25px 0 25px 30% !important;
+        background-position: left 32% center;
+    }
+    .table_responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child span {
+        left: 32%;
+    }
+    .table_responsive .left{
+        display: block;
+        margin-right: 5px;
+    }
+
+    .table_responsive .item-status{
+        margin-right: 5px;
+    }
+    .table_responsive > tbody > tr {
+        border-bottom: 1px solid #444;
+    }
+    .list_item .img-mobile{
+        display: block;
+        width: 10%;
+        float: left;
+        margin-right: 10px;
+    }
+    .list_item .img{
+        display: none;
+    }
+    .list_item .title{
+        float: left;
+        width: 85%;
+        margin: 0;
+    }
+    .media-body-right{
+        text-align: left;
+    }
+
+    .list_item .media-body {
+        padding-left: 0;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .section-title{
+        font-size: 20px
+    }
+    .header{
+        padding-top: 0
+    }
+    .header .logo{
+        width: 150px;
+        padding-top: 10px
+    }
+    .header .menu-rfq {
+        padding-top: 0;
+        padding-right: 0;
+    }
+
+    .rfq-view .pull-right.right{
+        float: left !important;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .title-category{
+        display: none   
+    }
+    .container{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .menu-rfq a{
+        margin: 0
+    }
+    .sidebar .nav > li > a{
+        padding: 10px;
+        font-size: 12px
+    }
+    .menu-rfq ul li {
+        padding-left: 7px;
+    }
+}
+
+/*!important*/

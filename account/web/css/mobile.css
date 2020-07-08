@@ -1,0 +1,155 @@
+@media only screen and (max-width: 800px) {
+    .list-group-category{
+        display: none   
+    }
+    .no-padding-left{
+        padding-left: 15px;
+    }
+
+
+}
+
+@media only screen and (max-width: 780px) {
+
+}
+
+@media (max-width: 768px) {
+    header .menu-main ul li.list-group-category{
+        width: 174px;
+    }
+    .header-user-icon{
+        display: block
+    }
+    .search .search-key{
+        width: 263px;
+    }
+}
+
+
+@media only screen and (max-width: 740px) {
+
+}
+
+@media only screen and (max-width: 720px) {
+
+}
+
+@media only screen and (max-width: 640px) {
+    .product-detail-img{
+    padding: 15px;
+}
+    .row-view{
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 620px) {
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
+
+@media only screen and (max-width: 568px) {
+
+}
+
+@media only screen and (max-width: 563px) {
+
+}
+
+@media only screen and (max-width: 549px) {
+
+}
+
+@media only screen and (max-width: 534px) {
+
+}
+@media only screen and (max-width: 414px) {
+    .product-img{
+        height: 140px;
+    }
+    .search .search-key{
+        width: 222px
+    }
+    .no-padding-left{
+        width: 100%;
+    }
+    .logo{
+        text-align: center;
+        padding: 5px 0;
+    }
+    .logo a img{
+        width: 150px;
+    }
+    .search button, .search button:hover {
+        padding: 0 12px;
+    }
+     .list-product{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .list-product .col-xs-6{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+@media only screen and (max-width: 411px) {
+    .search .search-key{
+        width: 219px
+    }
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 375px) {
+    .nav-tab-product > li > a{
+        padding: 10px;
+    }
+    .product-img{
+        height: 140px;
+    }
+    .search .search-key{
+        width: 183px
+    }
+} 
+
+@media only screen and (max-width: 360px) {
+    .product-img{
+        height: 140px;
+    }
+    .search .search-key{
+        width: 168px
+    }
+    .search button, .search button:hover {
+        padding: 0 12px;
+    }
+} 
+
+@media only screen and (max-width: 338px) {
+
+}
+
+@media only screen and (max-width: 330px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+    
+    .search .search-key{
+        width: 128px
+    }
+    .col-xs-6{
+        width: 100%;
+    }
+    .product-img{
+        height: 230px;
+    }
+    .nav>li>a {
+        padding: 10px 5px;
+        font-size: 13px;
+    }
+}

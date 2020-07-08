@@ -1,0 +1,32 @@
+@media (max-width: 1024px) {
+    .search .search-key{
+        width: 230px;
+    }
+    header .menu-main ul li.list-group-category{
+        width: 228px;
+    }
+    .product-img{
+        height: 225px
+    }
+}
+@media (max-width: 768px) {
+    .logo a img {
+        width: 175px;
+    }
+    header .menu-main ul li.list-group-category{
+        width: 174px;
+    }
+
+    .search .search-key{
+        width: 182px;
+    }
+      .product-img{
+        height: 200px
+    }
+    .search button, .search button:hover{
+        padding: 6px 12px;;
+    }
+    .search .select2-select{
+        width: 76px !important;
+    }
+}

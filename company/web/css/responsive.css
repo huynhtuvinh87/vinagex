@@ -1,0 +1,197 @@
+@media only screen and (max-width: 768px) {
+    .navbar-brand > img {
+        width: 100px;
+    }
+
+    .add-question {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .dropdown-menu:before {
+        right: 75px;
+    }
+
+    .dropdown-menu:after {
+        right: 76px;
+    }
+    .sub-reply {
+        margin-left: 8%;
+    }
+    .language .dropdown-menu {
+        right: -15px;
+        left: inherit;
+    }
+}
+
+
+@media only screen and (max-width: 667px) {
+    .navbar-nav {
+        margin: -0.5px -15px;
+    }
+    .navbar-brand > img {
+        width: 100px;
+    }
+    .collapse {
+        display: block
+    }
+    .top .tabs {
+        line-height: 20px;
+        z-index: 4;
+        background-color: #f8f8f8;
+        width: 100%;
+    }
+    .top .tabs a {
+        padding: 10px;
+        color: #000;
+        border-radius: 0;
+        display: inline-block;
+        width: 100%;
+        padding-left: 20px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .top .tabs a:focus, .top .tabs a:hover {
+        border-bottom: 1px solid #e7e7e7 !important;
+    }
+    .top .tabs #tabs-user {
+        width: 100%;
+    }
+
+}
+
+
+/*!important*/
+@media only screen and (max-width: 600px) {
+    .navbar-nav {
+        margin: -0.5px -15px;
+    }
+    .navbar-brand > img {
+        width: 165px;
+    }
+    .top .tabs {
+        line-height: 20px;
+        z-index: 4;
+        background-color: #f8f8f8;
+        width: 100%;
+    }
+    .top .tabs a {
+        padding: 10px;
+        color: #000;
+        border-radius: 0;
+        display: inline-block;
+        width: 100%;
+        padding-left: 20px;
+        border-bottom: 1px solid #e7e7e7;
+    }
+    .top .tabs a:focus, .top .tabs a:hover {
+        border-bottom: 1px solid #e7e7e7 !important;
+    }
+    .top .tabs #tabs-user {
+        width: 100%;
+    }
+
+    .header-question{
+        padding: 0;
+    }
+
+    .title-question h3{
+        padding: 0;
+        margin-top: 10px; 
+    }
+
+    .question {
+        padding: 10px 10px 10px 10px;
+        background: #eff0f1;
+        border-radius: 3px;
+    }
+
+    .panel-body {
+        padding: 10px 10px 0 10px;
+    }
+    .table_responsive{
+        overflow-x:inherit;
+        overflow-y: inherit;
+    }
+    .table_responsive,
+    .table_responsive thead,
+    .table_responsive tbody,
+    .table_responsive th,
+    .table_responsive td,
+    .table_responsive tr {
+        display: block;
+
+    }
+    .table_responsive > thead > tr {
+        position: absolute;
+        top: -9999px;
+        left: -9999px;
+    }
+    .table_responsive > tbody > tr {
+        border-top: 1px solid #ccc;
+    }
+    .table_responsive > tbody > tr:first-child {
+        border-radius: 3px 3px 0 0;
+        border-top: none;
+        margin-top: 0; 
+    }
+    .table_responsive > tbody > tr:last-child {
+        border-radius: 0 0 3px 3px;
+        border-bottom: none;
+    }
+    /*    .table_responsive > tbody > tr > td:first-child{
+            display: none
+        }*/
+    .table_responsive > tbody > tr > td:last-child{
+        border-bottom: 0;
+    }
+    .table_responsive > tbody > tr td {
+        border: none;
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+        display: flex;
+    }
+
+    .table_responsive > tbody > tr td:first-child {
+        text-align: left;
+    }
+    .table_responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child {
+        padding: 25px 0 25px 30% !important;
+        background-position: left 32% center;
+    }
+    .table_responsive.table-order > tbody > tr:nth-child(-n + 3) > td:first-child span {
+        left: 32%;
+    }
+    .table_responsive .left{
+        display: block;
+        margin-right: 5px;
+    }
+
+    .table_responsive .item-status{
+        margin-right: 5px;
+    }
+    .table_responsive > tbody > tr {
+        border-bottom: 1px solid #444;
+    }
+}
+@media only screen and (max-width: 414px) {
+    .company-search{
+        width: 350px;
+    }
+    .language .language-name{
+        display: none
+    }
+    .header .pull-right{
+        margin-top: 8px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .company-search{
+        width: 350px;
+    }
+    .language .language-name{
+        display: none
+    }
+    .header .pull-right{
+        margin-top: 6px;
+    }
+}

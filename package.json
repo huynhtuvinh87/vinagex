@@ -1,0 +1,29 @@
+{
+  "name": "vinagex",
+  "version": "1.0.0",
+  "description": "This README would normally document whatever steps are necessary to get your application up and running.",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "https": "^1.0.0",
+    "ioredis": "^4.3.0",
+    "redis": "^2.8.0",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/huynhtuvinh87/vinagex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/huynhtuvinh87/vinagex/issues"
+  },
+  "homepage": "https://gitlab.com/huynhtuvinh87/vinagex#readme"
+}

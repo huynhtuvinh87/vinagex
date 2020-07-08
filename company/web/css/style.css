@@ -1,0 +1,85 @@
+body{
+    background: #FFF;
+}
+h3{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h4{
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+.navbar-brand > img{
+    width: 250px;
+    margin-top: -10px
+}
+
+
+.top .tabs{
+    line-height: 70px;
+}
+.header{
+    padding: 10px 0
+}
+
+.header .pull-right{
+    display: flex;
+    margin-top: 15px
+}
+.header .pull-right .language{
+    margin-left: 10px
+}
+
+#tabs-user{
+    display: inline-block !important;
+    line-height: 30px;
+}
+#tabs-user ul li a{
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: normal
+}
+#tabs-user a:hover{
+    background: #f8f8f8;
+}
+
+
+.btn-search{
+    font-size: 15px;
+    color: #777; 
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    right: 5px;
+}
+
+
+.btn-search:hover{
+    color: #008000; 
+}
+
+.navbar-company{
+    margin-bottom: 0
+}
+.lang-default{
+    top: 7px;
+    left: 5px;
+}
+.table_responsive .left{
+    display: none
+}
+.company-search{
+    margin: 0 auto;
+    width: 500px;
+    font-size: 16px;
+}
+.company-search input, .company-search button{
+    height: 50px;
+    padding: 10px 20px;
+}
+.search-panel button{
+    border-right: 0;
+}

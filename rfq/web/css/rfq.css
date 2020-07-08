@@ -1,0 +1,164 @@
+
+#tabs-user{
+    display: inline-block !important;
+    line-height: 30px;
+}
+#tabs-user ul li a{
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+#tabs-user a:hover{
+    background: #f8f8f8;
+}
+.summary h4 a{
+    color: #006600;
+    font-size: 15px;
+}
+.summary h4 a{
+    color: #006600;
+    font-size: 15px;
+}
+.text-search:focus{
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.group-search{
+    position: relative;
+}
+
+.btn-search{
+    font-size: 15px;
+    color: #777; 
+    background: none;
+    border: none;
+    position: absolute;
+    z-index: 3;
+    top: 8px;
+    right: 5px;
+}
+
+
+.btn-search:hover{
+    color: #008000; 
+}
+
+select.classic{
+    background: url(/svg/bottom-arrow-16.svg) no-repeat right #fff;
+    -webkit-appearance: none;
+    background-position-x: 95%;
+}
+.list-images{
+    display: flex;
+}
+.list-images li{
+    padding-left: 5px;
+}
+
+.dropdown-menu a{
+    margin: 0;
+}
+.table_responsive .left{
+    display: none;
+}
+
+.table_responsive .right{
+    margin: 0;
+}
+
+.dropdown-menu .btn-link {
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.navbar-brand{
+    display: none;
+}
+.create-rfq-mobile{
+    display: none;
+}
+.menu-rfq{
+    text-align: right;
+}
+.search-wrap .dropdown-menu a{
+    margin: 0;
+}
+.language-bar{
+    position: relative; cursor: pointer;
+}
+.language-bar span{
+    top: 7px;
+    left: 5px;
+}
+
+.list_item .img-mobile{
+    display: none;
+}
+
+.list_item .title{
+    margin: 0;
+}
+.list_item .title h4{
+    margin: 0;
+    color: #000000;
+}
+.price{
+    color: #c41a16;
+}
+
+.list_item .content{
+    text-align: justify;
+}
+.btn-cancel-apply {
+    margin-left: 15px;
+}
+
+.list_item .action{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.list_item .action .dropdown-item{
+    display: block;
+}
+
+.list_item .action .dropdown-item:hover{
+    background: #e6ffe6;
+}
+
+.list_item .action button.dropdown-toggle{
+    border: 0;
+    background: none;
+    opacity: 0.6;
+}
+
+.list_item .action .dropdown-menu {
+    right: 0;
+    left: initial;
+}
+
+.list_item .action button.dropdown-toggle:focus{
+    opacity: 1;
+    border-radius: 2px;
+}
+
+.slick-dots li button { 
+    display: none;
+}
+
+.list_item .slider-nav a{
+    margin-left: 10px;
+}
+.list_item.rfq-view{
+    padding: 0 0 20px 0;
+}
+.slider-single img{
+    width: 100%;
+}
+.breadcrumb{
+    background-color: #fff;
+}
